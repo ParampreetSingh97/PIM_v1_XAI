@@ -2,15 +2,15 @@
 Main script for training and evaluating the CNN model for Raga classification.
 """
 
-from utils.preprocess import load_required_filenames, load_metadata,create_train_val_test_splits
-from utils.data_loader import get_x_y_data
-from utils.model import make_model
-from utils.trainer import train_model, evaluate_model
+from src.preprocess import load_required_filenames, load_metadata,create_train_val_test_splits
+from src.data_loader import get_x_y_data
+from src.model import make_model
+from src.trainer import train_model, evaluate_model
 
 def main():
     # Path to chromagram files, metadata and list containing required Raga names
-    chroma_dir = "/hdd_storage/data/PB/param/spectogram_501_renamed_upload/"
-    metadata_path = "/home/parampreet/Raga_model_chroma_modified/data/Metadata.csv"
+    chroma_dir = "path_to_folder_containing_chromagram_features"
+    metadata_path = "path_to_metadata_csv"
     required_ragas=['Bhairavi', 'Bihag', 'Des', 'Jog', 'Kedar', 'Khamaj', 'Malkauns',
         'Maru_bihaag', 'Nayaki_kanada', 'Shuddha_kalyan', 'Sohni', 'Yaman']
 
