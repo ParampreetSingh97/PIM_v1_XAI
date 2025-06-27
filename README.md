@@ -2,10 +2,10 @@
 
 This repository contains the codes and metadata for our paper:
 **"[Explainable Deep Learning Analysis for Raga Identification in Indian Art Music]"**  
-📄 [https://doi.org/10.48550/arXiv.2406.02443]
-   [P. Singh and V. Arora, “Explainable deep learning analysis for raga identification in indian art music,” arXiv preprint arXiv:2406.02443, 2024.]
+📄 [https://doi.org/10.1109/TASLPRO.2025.3574839]
+   [P. Singh and V. Arora, "Explainable Deep Learning Analysis for Raga Identification in Indian Art Music," in IEEE Transactions on Audio, Speech and Language Processing, vol. 33, pp. 2302-2311, 2025]
 
-Full dataset is available at: **https://zenodo.org/records/15461509**
+Full dataset will be available soon
 
 ## 📁 Dataset Summary
 - **501** Hindustani Classical Music concert recordings, split into 30 second clips
